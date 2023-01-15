@@ -1,0 +1,121 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"20 C:\Users\MARCO BRAVO\Downloads\PIC18F4550 libreria display 7 seg -20230115T181957Z-001\PIC18F4550 libreria display 7 seg\Libreria_Display_7SEG_AC\Libreria_DIsplay_7SEG_AC.X\ADC_Libreria_7SEG_AC.c
+[v _main main `(v  1 e 1 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"7 C:\Users\MARCO BRAVO\Downloads\PIC18F4550 libreria display 7 seg -20230115T181957Z-001\PIC18F4550 libreria display 7 seg\Libreria_Display_7SEG_AC\Libreria_DIsplay_7SEG_AC.X\Libreria_DIsplay_7SEG_AC.c
+[v _Set_Port Set_Port `(v  1 e 1 0 ]
+"13
+[v _Clear_Port Clear_Port `(v  1 e 1 0 ]
+"19
+[v _Decode_Display_AC Decode_Display_AC `(v  1 e 1 0 ]
+"38
+[v _Show_Digits_Display Show_Digits_Display `(v  1 e 1 0 ]
+"27 C:\Users\MARCO BRAVO\Downloads\PIC18F4550 libreria display 7 seg -20230115T181957Z-001\PIC18F4550 libreria display 7 seg\Libreria_Display_7SEG_AC\Libreria_DIsplay_7SEG_AC.X/Libreria_Display_7SEG_AC.h
+[v _Units Units `s  1 e 2 0 ]
+"28
+[v _Tens Tens `s  1 e 2 0 ]
+"29
+[v _Hundred Hundred `s  1 e 2 0 ]
+"30
+[v _Thousands Thousands `s  1 e 2 0 ]
+"3074 C:\Program Files\Microchip\xc8\v2.40\pic\include\proc\pic18f4550.h
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"3264
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"3626
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"4002
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"20 C:\Users\MARCO BRAVO\Downloads\PIC18F4550 libreria display 7 seg -20230115T181957Z-001\PIC18F4550 libreria display 7 seg\Libreria_Display_7SEG_AC\Libreria_DIsplay_7SEG_AC.X\ADC_Libreria_7SEG_AC.c
+[v _main main `(v  1 e 1 0 ]
+{
+"30
+} 0
+"38 C:\Users\MARCO BRAVO\Downloads\PIC18F4550 libreria display 7 seg -20230115T181957Z-001\PIC18F4550 libreria display 7 seg\Libreria_Display_7SEG_AC\Libreria_DIsplay_7SEG_AC.X\Libreria_DIsplay_7SEG_AC.c
+[v _Show_Digits_Display Show_Digits_Display `(v  1 e 1 0 ]
+{
+[v Show_Digits_Display@value value `s  1 p 2 8 ]
+"59
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 5 ]
+[v ___awmod@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awmod@dividend dividend `i  1 p 2 0 ]
+[v ___awmod@divisor divisor `i  1 p 2 2 ]
+"34
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 0 ]
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+"41
+} 0
+"19 C:\Users\MARCO BRAVO\Downloads\PIC18F4550 libreria display 7 seg -20230115T181957Z-001\PIC18F4550 libreria display 7 seg\Libreria_Display_7SEG_AC\Libreria_DIsplay_7SEG_AC.X\Libreria_DIsplay_7SEG_AC.c
+[v _Decode_Display_AC Decode_Display_AC `(v  1 e 1 0 ]
+{
+[v Decode_Display_AC@value value `c  1 a 1 wreg ]
+[v Decode_Display_AC@value value `c  1 a 1 wreg ]
+"21
+[v Decode_Display_AC@value value `c  1 a 1 3 ]
+"35
+} 0
+"7
+[v _Set_Port Set_Port `(v  1 e 1 0 ]
+{
+[v Set_Port@value value `c  1 a 1 wreg ]
+[v Set_Port@value value `c  1 a 1 wreg ]
+"9
+[v Set_Port@value value `c  1 a 1 0 ]
+"10
+} 0
+"13
+[v _Clear_Port Clear_Port `(v  1 e 1 0 ]
+{
+[v Clear_Port@value value `c  1 a 1 wreg ]
+[v Clear_Port@value value `c  1 a 1 wreg ]
+"15
+[v Clear_Port@value value `c  1 a 1 0 ]
+"16
+} 0
